@@ -1,0 +1,24 @@
+# Copy to ~/.gitconfig and adjust.
+# No secrets; safe defaults only.
+
+[user]
+  name = Nikola
+  email = 262686075+NikolaACTesla@users.noreply.github.com
+
+[init]
+  defaultBranch = main
+
+[fetch]
+  prune = true
+
+[push]
+  default = simple
+
+[core]
+  editor = vim
+
+[alias]
+  st = status
+  co = checkout
+  br = branch
+  lg = log --oneline --decorate --graph --all
